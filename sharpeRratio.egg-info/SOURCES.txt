@@ -1,9 +1,0 @@
-README
-setup.py
-sharpeRratio/__init__.py
-sharpeRratio/helpers.py
-sharpeRratio/sharpeRratio.py
-sharpeRratio.egg-info/PKG-INFO
-sharpeRratio.egg-info/SOURCES.txt
-sharpeRratio.egg-info/dependency_links.txt
-sharpeRratio.egg-info/top_level.txt
