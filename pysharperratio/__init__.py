@@ -1,4 +1,3 @@
-import os
 import numba
 import numpy as np
 import pandas as pd
@@ -88,9 +87,9 @@ def estimateSNR(x,permutations=1000):
                      for perm in range(permutations)])
 
     # Get spline data
-    cwd = os.getcwd()
-    spline_file = os.path.join(cwd, 'spline_data.csv')
-    a_data = pd.read_csv(spline_file,index_col=0)
+#    cwd = os.getcwd()
+#    spline_file = os.path.join(cwd, 'spline_data.csv')
+    a_data = pd.read_csv('spline_data.csv',index_col=0)
 
     # Estimate Spline
     f_a = interpolate.interp1d(a_data['x'], a_data['a'], kind='cubic')
