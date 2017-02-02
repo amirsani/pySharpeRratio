@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: pysharperratio
-Version: 0.1.1
+Version: 0.1.2
 Summary: A moment-free estimator of the Sharpe (signal-to-noise) ratio.
 Home-page: https://github.com/amirsani/pySharpeRratio
 Author: Amir Sani
