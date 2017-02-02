@@ -15,24 +15,39 @@ durations. First, the cumulative sum of x (e.g. prices) is computed,
 then the total drawdown and drawup durations are computed. Precision is
 improved by averaging the estimator on several random permutations of x.
 
-Author: Amir Sani
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Installation
+------------
 
-Maintainers: Amir Sani & Damien Challet
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+pip install --no-cache-dir pysharperratio
+
+Author: Amir Sani
+^^^^^^^^^^^^^^^^^
+
+Maintainers: `Amir Sani <http://amirsani.com>`__ & `Damien Challet <http://fiquant.mas.ecp.fr/people/faculty/damien-challet/>`__
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Reference
 ---------
-Challet, Damien. "Sharper asset ranking from total drawdown durations."
-arXiv preprint arXiv:1505.01333 (2015).
+
+`Challet,
+Damien <http://fiquant.mas.ecp.fr/people/faculty/damien-challet/>`__.
+`"Sharper asset ranking from total drawdown
+durations." <http://arxiv.org/abs/1505.01333>`__ arXiv preprint
+arXiv:1505.01333 (2015).
 
 Preprint available at http://arxiv.org/abs/1505.01333
 
 Bibtex
 ~~~~~~
+
 @article{challet2015sharper, title={Sharper asset ranking from total
 drawdown durations}, author={Challet, Damien}, journal={arXiv preprint
 arXiv:1505.01333}, year={2015} }
 
 Copyright (c) 2017, Amir Sani
------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+|DOI|
+
+.. |DOI| image:: https://zenodo.org/badge/DOI/10.5281/zenodo.267937.svg
+   :target: https://doi.org/10.5281/zenodo.267937

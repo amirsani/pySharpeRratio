@@ -1,4 +1,6 @@
+MANIFEST.in
 README
+README.rst
 setup.py
 pysharperratio/__init__.py
 pysharperratio.egg-info/PKG-INFO

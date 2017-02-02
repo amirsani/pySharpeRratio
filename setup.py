@@ -8,7 +8,7 @@ def readme():
 
 setup(
     name='pysharperratio',
-    version='0.01.09',
+    version='0.01.10',
     description='A moment-free estimator of the Sharpe (signal-to-noise) ratio.',
     long_description=readme(),
     author='Amir Sani',
