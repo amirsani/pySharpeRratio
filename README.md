@@ -19,4 +19,8 @@ Challet, Damien. "Sharper asset ranking from total drawdown durations." arXiv pr
 }
 
 ## Copyright (c) 2017, Amir Sani
+
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.267937.svg)](https://doi.org/10.5281/zenodo.267937)
+
  
