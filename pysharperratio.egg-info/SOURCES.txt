@@ -1,0 +1,7 @@
+README
+setup.py
+pysharperratio/__init__.py
+pysharperratio.egg-info/PKG-INFO
+pysharperratio.egg-info/SOURCES.txt
+pysharperratio.egg-info/dependency_links.txt
+pysharperratio.egg-info/top_level.txt
