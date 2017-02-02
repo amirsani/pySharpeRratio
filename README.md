@@ -1,4 +1,4 @@
-# sharpeRratio
+# pySharpeRratio
 
 ## Description
 This package implements a moment-free estimator of the Sharpe (signal-to-noise) ratio. The algorithm does not require the computation of any moments by estimating the Sharpe ratio based on the cumulative sum of (i.i.d.) increments or returns. This algorithm is much more precise (efficient) when increments are heavy-tailed.
@@ -18,4 +18,5 @@ Challet, Damien. "Sharper asset ranking from total drawdown durations." arXiv pr
   year={2015}
 }
 
-## Copywrite Amir Sani 2017
+## Copyright (c) 2017, Amir Sani
+ 
