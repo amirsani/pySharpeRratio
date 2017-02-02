@@ -5,7 +5,10 @@ This package implements a moment-free estimator of the Sharpe (signal-to-noise) 
 
 The estimator computes the difference between the drawdown and drawup durations. First, the cumulative sum of x (e.g. prices) is computed, then the total drawdown and drawup durations are computed. Precision is improved by averaging the estimator on several random permutations of x.
 
-### Author & Maintainer: Amir Sani
+## Installation
+pip install --no-cache-dir pysharperratio
+
+#### Author & Maintainer: Amir Sani
 
 ## Reference
 Challet, Damien. "Sharper asset ranking from total drawdown durations." arXiv preprint arXiv:1505.01333 (2015).
@@ -18,7 +21,7 @@ Challet, Damien. "Sharper asset ranking from total drawdown durations." arXiv pr
   year={2015}
 }
 
-## Copyright (c) 2017, Amir Sani
+#### Copyright (c) 2017, Amir Sani
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.267937.svg)](https://doi.org/10.5281/zenodo.267937)
