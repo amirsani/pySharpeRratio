@@ -1,0 +1,7 @@
+numba==0.30.1
+numpy==1.11.0
+pandas==0.19.2
+pyandoc==0.2.0
+scipy==0.17.0
+pandoc==1.0.0b2
+setuptools==34.1.0
