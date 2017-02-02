@@ -15,18 +15,21 @@ durations. First, the cumulative sum of x (e.g. prices) is computed,
 then the total drawdown and drawup durations are computed. Precision is
 improved by averaging the estimator on several random permutations of x.
 
-Author & Maintainer: Amir Sani
+Author: Amir Sani
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Maintainers: Amir Sani & Damien Challet
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Reference
 ---------
-
 Challet, Damien. "Sharper asset ranking from total drawdown durations."
 arXiv preprint arXiv:1505.01333 (2015).
 
+Preprint available at http://arxiv.org/abs/1505.01333
+
 Bibtex
 ~~~~~~
-
 @article{challet2015sharper, title={Sharper asset ranking from total
 drawdown durations}, author={Challet, Damien}, journal={arXiv preprint
 arXiv:1505.01333}, year={2015} }

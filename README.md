@@ -8,10 +8,12 @@ The estimator computes the difference between the drawdown and drawup durations.
 ## Installation
 pip install --no-cache-dir pysharperratio
 
-#### Author & Maintainer: Amir Sani
+#### Author: Amir Sani
+
+#### Maintainers: [Amir Sani](http://amirsani.com) & [Damien Challet](http://fiquant.mas.ecp.fr/people/faculty/damien-challet/)
 
 ## Reference
-Challet, Damien. "Sharper asset ranking from total drawdown durations." arXiv preprint arXiv:1505.01333 (2015).
+[Challet, Damien](http://fiquant.mas.ecp.fr/people/faculty/damien-challet/). ["Sharper asset ranking from total drawdown durations."](http://arxiv.org/abs/1505.01333) arXiv preprint arXiv:1505.01333 (2015).
 
 ### Bibtex
 @article{challet2015sharper,
@@ -25,5 +27,3 @@ Challet, Damien. "Sharper asset ranking from total drawdown durations." arXiv pr
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.267937.svg)](https://doi.org/10.5281/zenodo.267937)
-
- 

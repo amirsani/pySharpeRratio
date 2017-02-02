@@ -2,10 +2,15 @@
 
 from setuptools import setup
 
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
 setup(
     name='pysharperratio',
-    version='0.01.08',
+    version='0.01.09',
     description='A moment-free estimator of the Sharpe (signal-to-noise) ratio.',
+    long_description=readme(),
     author='Amir Sani',
     url='http://www.amirsani.com',
     author_email='reachme@amirsani.com',
