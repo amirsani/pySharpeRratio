@@ -15,6 +15,8 @@ pip install --no-cache-dir pysharperratio
 ## Reference
 [Challet, Damien](http://fiquant.mas.ecp.fr/people/faculty/damien-challet/). ["Sharper asset ranking from total drawdown durations."](http://arxiv.org/abs/1505.01333) arXiv preprint arXiv:1505.01333 (2015).
 
+Preprint available at http://arxiv.org/abs/1505.01333
+
 ### Bibtex
 @article{challet2015sharper,
   title={Sharper asset ranking from total drawdown durations},
