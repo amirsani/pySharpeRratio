@@ -14,7 +14,7 @@ setup(
     long_description=pypandoc.convert('README.md', 'rst'),
     author='Amir Sani',
     author_email='reachme@amirsani.com',
-    url='https://github.com/kennethreitz/samplemod',
+    url='https://github.com/amirsani/sharpeRratio',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
