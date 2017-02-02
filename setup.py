@@ -4,8 +4,9 @@ from setuptools import setup
 
 setup(
     name='pysharperratio',
-    version='0.01.06',
+    version='0.01.07',
     description='A moment-free estimator of the Sharpe (signal-to-noise) ratio.',
+    long_description=open('README.rst').read(),
     author='Amir Sani',
     url='http://www.amirsani.com',
     author_email='reachme@amirsani.com',
