@@ -1,7 +1,7 @@
 import numpy as np
 import pandas as pd
+import pickle
 
-from scipy.interpolate import interpolate
 from scipy import stats
 
 def compute_r0(x):
@@ -83,13 +83,9 @@ def estimateSNR(x,permutations=1000):
     r0bar = np.mean([compute_r0(x[np.random.permutation(x.shape[0])])
                      for perm in range(permutations)])
 
-    # Get spline data
-#    cwd = os.getcwd()
-#    spline_file = os.path.join(cwd, 'spline_data.csv')
-    a_data = pd.read_csv('spline_data.csv',index_col=0)
-
-    # Estimate Spline
-    f_a = interpolate.interp1d(a_data['x'], a_data['a'], kind='cubic')
+    # Load spline
+    with open('interpolator.pkl', 'rb') as f:
+        f_a = pickle.load(f)
 
     # Compute signal to noise ratio
     snr = np.sign(r0bar/N)*f_a(np.abs(r0bar/N))*(1.0-8.0/3.0 * nu**(-1.5))

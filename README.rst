@@ -15,37 +15,35 @@ durations. First, the cumulative sum of x (e.g. prices) is computed,
 then the total drawdown and drawup durations are computed. Precision is
 improved by averaging the estimator on several random permutations of x.
 
+
+Note
+----
+
+The data used to fit the spline is saved as spline_data.csv in the data folder.
+
+
 Installation
 ------------
 
 pip install --no-cache-dir pysharperratio
 
 Author: Amir Sani
-^^^^^^^^^^^^^^^^^
-
-Maintainers: `Amir Sani <http://amirsani.com>`__ & `Damien Challet <http://fiquant.mas.ecp.fr/people/faculty/damien-challet/>`__
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Maintainers: Amir Sani & Damien Challet
 
 Reference
 ---------
 
-`Challet,
-Damien <http://fiquant.mas.ecp.fr/people/faculty/damien-challet/>`__.
-`"Sharper asset ranking from total drawdown
-durations." <http://arxiv.org/abs/1505.01333>`__ arXiv preprint
-arXiv:1505.01333 (2015).
+Challet, Damien, `"Sharper asset ranking from total drawdown durations." arXiv preprint, arXiv:1505.01333 (2015).
 
 Preprint available at http://arxiv.org/abs/1505.01333
 
-Bibtex
-~~~~~~
+Bibtex:
 
 @article{challet2015sharper, title={Sharper asset ranking from total
 drawdown durations}, author={Challet, Damien}, journal={arXiv preprint
 arXiv:1505.01333}, year={2015} }
 
 Copyright (c) 2017, Amir Sani
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |DOI|
 

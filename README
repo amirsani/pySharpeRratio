@@ -5,6 +5,9 @@ This package implements a moment-free estimator of the Sharpe (signal-to-noise) 
 
 The estimator computes the difference between the drawdown and drawup durations. First, the cumulative sum of x (e.g. prices) is computed, then the total drawdown and drawup durations are computed. Precision is improved by averaging the estimator on several random permutations of x.
 
+## Note
+The data used to fit the spline is saved as spline_data.csv in the data folder.
+
 ## Installation
 pip install --no-cache-dir pysharperratio
 
