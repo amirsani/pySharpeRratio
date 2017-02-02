@@ -9,6 +9,8 @@ The estimator computes the difference between the drawdown and drawup durations.
 The data used to fit the spline is saved as spline_data.csv in the data folder.
 
 ## Installation
+The current implementation only supports Python 3. 
+
 pip install --no-cache-dir pysharperratio
 
 #### Author: Amir Sani
