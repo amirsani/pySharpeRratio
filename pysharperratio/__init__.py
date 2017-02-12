@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import pickle
+import os
 
 from scipy import stats
 
@@ -84,7 +85,8 @@ def estimateSNR(x,permutations=1000):
                      for perm in range(permutations)])
 
     # Load spline
-    with open('interpolator.pkl', 'rb') as f:
+    with open(os.path.join(os.path.dirname(__file__),
+                           '..', 'interpolator.pkl'), 'rb') as f:
         f_a = pickle.load(f)
 
     # Compute signal to noise ratio
