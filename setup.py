@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from setuptools import setup
+from setuptools import setup, find_packages
 
 def readme():
     with open('README.rst') as f:
@@ -15,6 +15,11 @@ setup(
     url='http://www.amirsani.com',
     author_email='reachme@amirsani.com',
     download_url='https://github.com/amirsani/pySharpeRratio',
-    packages=['pysharperratio'],
+    # packages=['pysharperratio'],
+    packages=find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
+    #
+    # Include additional files into the package
+    include_package_data=True,
+    package_data={'pysharperratio': ['../*.pkl']},
     zip_safe=False
 )
