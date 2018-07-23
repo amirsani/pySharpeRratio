@@ -24,11 +24,16 @@ def compute_r0(x):
         cumulated sum of x.
 
     """
+    # Compute rolling sum
+    expanding_window = pd.core.window.expanding(pd.Series(np.cumsum(x)), min_periods=1)
+    
     # Compute the rolling maximum of the log returns
-    rolling_max = pd.expanding_max(np.cumsum(x),min_periods=1)
+#     rolling_max = pd.expanding_max(np.cumsum(x),min_periods=1)
+    rolling_max = expanding_window.max().values
 
     # Compute the rolling minimum of the log returns
-    rolling_min = pd.expanding_min(np.cumsum(x),min_periods=1)
+#     rolling_min = pd.expanding_min(np.cumsum(x),min_periods=1)
+    rolling_min = expanding_window.min().values
 
     # Get the number of unique values for each. This should signal the unique jumps in each case.
     uppers = np.unique(rolling_max).shape[0]
